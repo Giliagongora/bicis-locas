@@ -65,7 +65,7 @@ if (password == "" || password == 0 ){
         span.appendChild(texto);
 
        // return span;
-}else if(password.length < 6 || password == "123456" || password =="password" || password == "098754"){
+	}else if(password.length < 6 || password == "123456" || password =="password" || password == "098754"){
 		var span = document.createElement("span");
         var contiene = document.getElementById("input-password");
         var padre = contiene.parentNode;
